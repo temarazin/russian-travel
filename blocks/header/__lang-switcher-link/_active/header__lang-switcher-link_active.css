@@ -1,0 +1,9 @@
+.header__lang-switcher-link_active {
+  text-decoration: underline;
+  cursor: default;
+}
+
+.header__lang-switcher-link_active:hover {
+  opacity: 1;
+  transition: none;
+}
