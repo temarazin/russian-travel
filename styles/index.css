@@ -7,6 +7,11 @@
 @import url(../blocks/page/__section/_width/page__section_width_normal.css);
 @import url(../blocks/page/__section/_width/page__section_width_wide.css);
 
+/* Main */
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__lead/main__lead.css);
+@import url(../blocks/main/__intro/main__intro.css);
+
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -16,3 +21,19 @@
 @import url(../blocks/header/__lang-switcher-item/header__lang-switcher-item.css);
 @import url(../blocks/header/__lang-switcher-link/header__lang-switcher-link.css);
 @import url(../blocks/header/__lang-switcher-link/_active/header__lang-switcher-link_active.css);
+
+/* Lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/* intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-item-name/intro__list-item-name.css);
