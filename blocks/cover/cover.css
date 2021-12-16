@@ -1,0 +1,8 @@
+.cover {
+  display: block;
+  position: relative;
+}
+
+.cover:hover .cover__background::before {
+  opacity: 0.8;
+}

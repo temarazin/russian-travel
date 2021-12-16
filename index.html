@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="page">
-    <header class="header page__section page__section_width_wide">
+    <header class="header page__section page__section_width_wide page__section_padding_default">
       <a href="/" class="header__logo">
         <img src="./blocks/header/__logo/__logo.svg" alt="логотип Россия" class="header__logo-img">
       </a>
@@ -23,13 +23,15 @@
       </ul>
     </header>
     <main class="main">
-      <section class="lead main__lead page__section page__section_width_normal">
+      <!-- Lead -->
+      <section class="lead main__lead page__section page__section_width_normal page__section_padding_sticky">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img src="./images/lead__image.jpg" alt="Девушка спит в поезде" class="lead__image">
         <p class="lead__caption">Ваша полка — верхняя</p>
       </section>
-      <section class="intro main__intro page__section page__section_width_normal">
+      <!-- Intro -->
+      <section class="intro main__intro page__section page__section_width_normal page__section_padding_default">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране.
@@ -56,52 +58,54 @@
           </li>
         </ul>
       </section>
-      <section class="photo-grid main__photo-grid page__section page__section_width_wide">
+      <!-- Photo grid -->
+      <section class="photo-grid main__photo-grid page__section page__section_width_wide page__section_padding_default" aria-label="Фотогалерея">
         <ul class="gallery">
           <li class="gallery__item">
-            <img src="./images/__item.jpg" alt="" class="gallery__image">
+            <img src="./images/__item.jpg" alt="Столб уклоняется от поезда" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-1.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-1.jpg" alt="На горной круче альпинисты курят анашу" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-2.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-2.jpg" alt="Собака на сена" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-3.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-3.jpg" alt="Туман в лесу - где-то там ёжик" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-4.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-4.jpg" alt="Машина едет по очень тонкому лдьу" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-5.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-5.jpg" alt="Грустный пляж" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-6.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-6.jpg" alt="Гора, возможно Эребор" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-7.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-7.jpg" alt="Какая-то неправильная зебра" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-8.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-8.jpg" alt="Импрессионизм" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-9.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-9.jpg" alt="Гора, возможно Горбатая" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-10.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-10.jpg" alt="Скала, возможно Сталлоне" class="gallery__image">
           </li>
           <li class="gallery__item">
-            <img src="./images/__item-11.jpg" alt="" class="gallery__image">
+            <img src="./images/__item-11.jpg" alt="Опенэйр хаммам" class="gallery__image">
           </li>
         </ul>
       </section>
-      <section class="places main__places page__section page__section_width_normal">
+      <!-- Places -->
+      <section class="places main__places page__section page__section_width_normal page__section_padding_default" aria-label="Интересные места">
         <article class="place places__place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <h3 class="place__url-heading">Url</h3>
-            <a href="#" class="place__link">park-kosa.ru</a>
+            <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
           </div>
           <div class="place__image-wrapper">
             <img src="./images/__image.jpg" alt="Куршская коса" class="place__image">
@@ -123,7 +127,7 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <h3 class="place__url-heading">Url</h3>
-            <a href="#" class="place__link">National Geographic</a>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank">National Geographic</a>
           </div>
           <div class="place__image-wrapper">
             <img src="./images/__image-1.jpg" alt="Куршская коса" class="place__image">
@@ -144,7 +148,7 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <h3 class="place__url-heading">Url</h3>
-            <a href="#" class="place__link">Facebook</a>
+            <a href="https://www.facebook.com/vera.bashm" class="place__link" target="_blank">Facebook</a>
           </div>
           <div class="place__image-wrapper">
             <img src="./images/__image-2.jpg" alt="Алтай" class="place__image">
@@ -164,7 +168,7 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <h3 class="place__url-heading">Url</h3>
-            <a href="#" class="place__link">https://vk.com/baikalmile</a>
+            <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <div class="place__image-wrapper">
             <img src="./images/__image-3.jpg" alt="Зимний Байкал" class="place__image">
@@ -185,7 +189,7 @@
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <h3 class="place__url-heading">Url</h3>
-            <a href="#" class="place__link">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru/</a>
           </div>
           <div class="place__image-wrapper">
             <img src="./images/__image-4.jpg" alt="Карелия" class="place__image">
@@ -201,8 +205,31 @@
           </div>
         </article>
       </section>
+      <!-- Covers -->
+      <section class="covers main__covers page__section page__section_width_wide page__section_padding_sticky">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover" target="_blank">
+          <div class="cover__background"></div>
+          <div class="cover__content">
+            <h2 class="cover__title">
+              До Байкала «на собаках»
+            </h2>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          </div>
+        </a>
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer page__section page__section_width_wide page__section_padding_default">
+      <nav class="footer__links">
+        <a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
+        <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
+        <a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
+        <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
+        <a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
+      </nav>
+      <p class="footer__copyright">
+        © 2021. Артём Малышев
+      </p>
+    </footer>
   </div>
 </body>
 </html>
