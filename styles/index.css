@@ -14,8 +14,6 @@
 @import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/page/__section/_width/page__section_width_normal.css);
 @import url(../blocks/page/__section/_width/page__section_width_wide.css);
-@import url(../blocks/page/__section/_padding/page__section_padding_default.css);
-@import url(../blocks/page/__section/_padding/page__section_padding_sticky.css);
 
 /* Main */
 @import url(../blocks/main/main.css);

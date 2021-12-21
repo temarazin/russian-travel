@@ -1,6 +1,12 @@
 .header__lang-switcher {
   display: flex;
-  margin: 0;
+  margin: 0 0 6px;
   padding: 0;
   list-style: none;
+}
+
+@media screen and (max-width: 719px) {
+  .header__lang-switcher {
+    margin-bottom: 8px;
+  }
 }

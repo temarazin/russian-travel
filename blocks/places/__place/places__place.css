@@ -2,6 +2,12 @@
   margin-top: 80px;
 }
 
-.places__place: {
+.places__place:first-child {
   margin-top: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .places__place {
+    margin-top: 73px;
+  }
 }

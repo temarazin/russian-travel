@@ -4,3 +4,11 @@
   object-fit: contain;
   object-position: left center;
 }
+
+@media screen and (max-width: 719px) {
+  .header__logo-img {
+    width: 142px;
+    height: 42px;
+  }
+
+}

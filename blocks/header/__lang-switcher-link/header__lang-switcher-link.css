@@ -1,6 +1,6 @@
 .header__lang-switcher-link {
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   text-decoration: none;
   color: #fff;
   transition: opacity 0.3s;
@@ -8,4 +8,11 @@
 
 .header__lang-switcher-link:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 719px) {
+  .header__lang-switcher-link {
+    font-size: 18px;
+    line-height: 1.11px;
+  }
 }
