@@ -7,3 +7,5 @@
 * Flexbox и Grid
 * Css анимации и трансформации
 * Media queries
+
+GitHub Pages: [перейти](https://temarazin.github.io/russian-travel/)
