@@ -1,9 +1,23 @@
 .main__intro {
   margin-top: 92px;
+  padding: 0 148px;
+}
+
+@media screen and (max-width: 1279px) {
+  .main__intro {
+    padding: 0 48px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .main__intro {
     margin-top: 88px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main__intro {
+    padding: 0 16px;
   }
 }

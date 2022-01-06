@@ -1,18 +1,17 @@
-.header {
+.main__gallery {
+  margin-top: 92px;
   padding: 0 48px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
 }
 
 @media screen and (max-width: 1023px) {
-  .header {
+  .main__gallery {
+    margin-top: 88px;
     padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .header {
+  .main__gallery {
     padding: 0 16px;
   }
 }
