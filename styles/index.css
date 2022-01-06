@@ -28,10 +28,10 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-img/header__logo-img.css);
 @import url(../blocks/header);
-@import url(../blocks/header/__lang-switcher/header__lang-switcher.css);
-@import url(../blocks/header/__lang-switcher-item/header__lang-switcher-item.css);
-@import url(../blocks/header/__lang-switcher-link/header__lang-switcher-link.css);
-@import url(../blocks/header/__lang-switcher-link/_active/header__lang-switcher-link_active.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-item/header__lang-item.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /* Lead */
 @import url(../blocks/lead/lead.css);
