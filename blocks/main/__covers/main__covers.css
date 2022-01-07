@@ -8,3 +8,15 @@
     padding: 0;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .main__covers {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main__covers {
+    margin-top: 66px;
+  }
+}

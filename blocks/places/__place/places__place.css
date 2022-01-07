@@ -11,3 +11,9 @@
     margin-top: 73px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .places__place {
+    margin-top: 50px;
+  }
+}

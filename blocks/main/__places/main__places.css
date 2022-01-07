@@ -11,12 +11,14 @@
 
 @media screen and (max-width: 1023px) {
   .main__places {
+    margin-top: 88px;
     padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .main__places {
+    margin-top: 64px;
     padding: 0;
   }
 }

@@ -1,9 +1,12 @@
 .cover {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  height: 740px;
+  min-height: 740px;
   background: url(./__background.jpg) center center no-repeat;
   background-size: cover;
+  text-decoration: none;
 }
 
 .cover::before {
@@ -24,18 +27,18 @@
 
 @media screen and (max-width: 1279px) {
   .cover {
-    height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    height: 320px;
+    min-height: 200px;
   }
 }

@@ -10,9 +10,9 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 1.11px;
+    line-height: 1.11;
   }
 }
